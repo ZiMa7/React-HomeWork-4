@@ -1,38 +1,36 @@
-.App {
+.wrapper {
+  max-width: 80%;
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+}
+.obi_van,
+.film_four {
+  width: 50%;
+  margin-right: 20px;
+  padding: 20px;
+  height: auto;
+  margin-bottom: 20px;
+  background-color: rgb(241 243 244);
+  border-radius: 20px;
+  height: fit-content;
+}
+.hero,
+.episode {
+  font-size: 50px;
+  font-weight: 600;
+  color: #1b14ed85;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper_arr {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.films,
+.vehicles,
+.starships,
+.characters {
+  text-align: left;
 }
